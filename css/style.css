@@ -1,0 +1,141 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 75%;
+    width: 63%;
+    background: linear-gradient(to top, #0e0e0e, #6f5d97, #cfd0fc, #c5c1fc) no-repeat fixed;   
+}
+.Main
+{
+    display: block;
+    background-color: rgb(241, 242, 247);
+    margin: 100px;
+    clear: both;
+}
+.CheckountForm
+{
+    padding: 20px;
+    display: block;
+    border-bottom: 2px solid #dfe0e5;;
+    margin: 50px 0px 0px;
+    text-decoration-color:#b1adaa ;
+}
+.UserData,.Residence,.Pay
+{
+    height: 150px;
+    border-bottom: 2px solid #dfe0e5;
+    clear: both;
+    display: block;
+    background-color: #f9faff;
+    
+}
+.Fname,.E-mail
+{
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    margin: 10px;
+}
+.Lname,.Phone
+{
+    display: block;
+    float: right;
+    padding: 10px 20px;
+    margin: 10px;
+}
+input
+{
+    padding-left: 30px;
+    height: 25px;
+}
+.Residence,.Pay
+{
+    height: 264px;
+}
+select,.City,.PostCode,.CardNumber,.Cvv
+{
+    display: block;
+    width: 170px;
+    float: left;
+    padding: 8px 10px;
+    margin: 30px 17px 30px 30px;
+}
+.City,.PostCode
+{
+    padding: 3px;
+    margin: 30px 7px;
+}
+.PostCode
+{
+    width: 138px;
+}
+.Address,.AddInfo,.CardName
+{
+    display: block;
+    width: 84%;
+    padding: 4px 16px;
+    margin:  20px 30px;
+}
+.AddInfo
+{
+    height: 75px;
+   
+}
+p
+{
+    display: block;
+    float: left;
+    padding: 4px 16px;
+    margin:  0px 16px;
+}
+.CardNumber,.Cards
+{
+    width: 388px;
+    padding: 8px 10px;
+    margin: 12px 17px 30px 30px;
+}
+.Cvv
+{
+    width: 50px;
+    margin: 12px 17px 30px 30px;
+}
+.Month
+{
+    display: block;
+    float: left;
+    padding: 8px 10px;
+    margin: 0px 17px 30px 30px;
+}
+.Year
+{
+    width: 127px;
+    margin: 0 24px 18px 37px;
+    padding: 4px 7px;
+}
+.Cards input
+{
+    margin-left: 20px;
+}
+.Cards a
+{
+    margin: 0 10px 0px 10px;
+}
+.btn
+{
+    display: block;
+    height: 150px;
+      
+}
+button
+{
+    display: block;
+    float: right;
+    background-color: #b95dca;
+    color: white;
+    width: 127px;
+    margin: 50px 33px 18px 37px;
+    padding: 12px 14px;
